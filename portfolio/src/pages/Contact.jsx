@@ -114,7 +114,7 @@ export const Contact = () => {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
+            {/* Submit Button  */}
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
