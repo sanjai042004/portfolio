@@ -28,7 +28,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:sanjaiv642@gmail.com"
             className="hover:text-blue-400 transition"
           >
             <Mail className="w-6 h-6" />
