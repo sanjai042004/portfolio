@@ -12,7 +12,7 @@ export const About = () => {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.10 }}
           className="text-4xl sm:text-5xl font-bold text-center mb-10"
         >
           About <span className="text-blue-400">Me</span>
@@ -33,15 +33,21 @@ export const About = () => {
             className="text-gray-300 text-lg leading-relaxed"
           >
             I'm <span className="text-blue-400 font-semibold">Sanjai</span>, a
-            MERN Stack Developer who loves creating fast, clean, and modern web
-            applications.  
+            MERN Stack Developer with hands-on experience building
+            full-stack web applications from frontend to backend.
             <br /><br />
-            I focus on building smooth user experiences using React, Node,
-            Express, MongoDB, and animation tools like Framer Motion. I enjoy
-            solving problems, learning new technologies, and turning ideas into
-            real working products.
+            I have developed projects that include authentication,
+            protected routes, RESTful APIs, CRUD operations, and
+            responsive UI using React and Tailwind CSS. I focus on
+            writing clean, maintainable code and building
+            production-ready applications.
+            <br /><br />
+            Currently seeking a MERN Internship or Junior Developer
+            role where I can contribute to real-world projects and
+            grow in a professional development environment.
           </motion.p>
         </motion.div>
+
       </div>
     </section>
   );
