@@ -11,7 +11,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://sanjai4-portfolio.vercel.app"],
+    origin: ["http://localhost:5173", "https://sanjai-portfolio-18.vercel.app"],
     credentials: true,
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
@@ -41,7 +41,7 @@ const connectDB = async () => {
 app.use("/api/contact", contactRoute);
 
 app.get("/", (req, res) => {
-  res.send("Portfolio backend is running 🟢");
+  res.send("Portfolio backend is running");
 });
 
 
