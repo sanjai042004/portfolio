@@ -14,7 +14,7 @@ export const Projects = () => {
         "Full-stack MERN blog platform with JWT authentication, protected routes, image upload, RESTful APIs, and MongoDB Atlas integration. Deployed frontend and backend separately.",
       img: blog,
       github: "https://github.com/sanjai042004/Blog_Website/tree/main",
-      live: "https://codeverseb.netlify.app",
+      live: "https://codeverse-c.vercel.app",
     },
 
     {
